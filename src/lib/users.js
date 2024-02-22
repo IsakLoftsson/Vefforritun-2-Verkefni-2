@@ -26,6 +26,15 @@ const records = [
     password: '$2a$11$pgj3.zySyFOvIQEpD7W6Aund1Tw.BFarXxgLJxLbrzIv/4Nteisii',
     admin: false,
   },
+  {
+    id: 3,
+    username: 'isak',
+    name: 'Ísak',
+
+    // 123
+    password: '$2a$11$pgj3.zySyFOvIQEpD7W6Aund1Tw.BFarXxgLJxLbrzIv/4Nteisii',
+    admin: false,
+  }
 ];
 
 export async function comparePasswords(password, user) {
