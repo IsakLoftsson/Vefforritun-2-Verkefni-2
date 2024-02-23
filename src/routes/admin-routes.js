@@ -32,17 +32,18 @@ function ensureLoggedIn(req, res, next) {
   return res.redirect('/login');
 }
 
-function skraRoute(req, res, next) {
+function skraRoute(req, res) {
   return res.render('skra', {
     title: 'Skrá leik',
   });
 }
 
-function skraRouteInsert(req, res, next) {
+function skraRouteInsert(req, res) {
   // TODO mjög hrátt allt saman, vantar validation!
-  const { home_name, home_score, away_name, away_score } = req.body;
+  const { homeName, homeScore, awayName, away_score: awayScore } = req.body;
 
-  const result = insertGame(home_name, home_score, away_name, away_score);
+  // eslint-disable-next-line no-unused-vars
+  const result = insertGame(homeName, homeScore, awayName, awayScore);
 
   res.redirect('/leikir');
 }
