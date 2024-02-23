@@ -1,4 +1,3 @@
-/*
 CREATE TABLE IF NOT EXISTS public.users (
   id serial primary key,
   name CHARACTER VARYING(64) NOT NULL,
@@ -43,10 +42,7 @@ INSERT INTO teams VALUES (12, 'Hraðaliðið');
 INSERT INTO users (id, name, username, password, admin) VALUES
 (1, 'Ísak Loftsson', 'isak', '$2a$11$pgj3.zySyFOvIQEpD7W6Aund1Tw.BFarXxgLJxLbrzIv/4Nteisii', true);
 
-*/
 --------------------------------------------------------------------
-
---/*
 
 INSERT INTO games (date, home, away, home_score, away_score) VALUES ('2024-01-22T15:20:53.955Z', 3, 12, 5, 4);
 INSERT INTO games (date, home, away, home_score, away_score) VALUES ('2024-01-22T15:20:53.955Z', 8, 7, 1, 0);
@@ -103,8 +99,8 @@ INSERT INTO games (date, home, away, home_score, away_score) VALUES ('2024-02-23
 INSERT INTO games (date, home, away, home_score, away_score) VALUES ('2024-02-23T15:20:53.955Z', 8, 7, 1, 1);
 INSERT INTO games (date, home, away, home_score, away_score) VALUES ('2024-02-23T15:20:53.955Z', 9, 12, 0, 4);
 
---*/
-
 --TRUNCATE TABLE games;
 --DELETE 	FROM games;
 SELECT * FROM games;
+
+--SELECT * FROM teams;

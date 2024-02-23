@@ -41,7 +41,7 @@ ul li a {
 /* ---- FOOTER ------- */
 
 footer {
-  padding: 20px;
+  padding: 0px;
 }
 
 footer p {
@@ -70,7 +70,8 @@ table {
   margin-top: 20px;
 }
 
-th, td {
+/*th, */ 
+td {
   padding: 8px;
   border-bottom: 1px solid #ddd;
   text-align: left;
