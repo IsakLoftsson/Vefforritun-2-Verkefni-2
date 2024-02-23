@@ -1,3 +1,5 @@
+## (: Username er isak & Password er 123 ;)
+
 # Vefforritun 2, 2024, verkefni 2: Express, postgres og hýsing
 
 - [Kynning á verkefni](https://youtu.be/OlYfb4N-IZQ)
